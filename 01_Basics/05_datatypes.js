@@ -29,12 +29,30 @@ console.log(typeof heros);
 console.log(typeof myFunction); // the function datatype is actually FUNCTION OBJECT.
 
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++
 
+// Stack(Primitive), Heap(Non-Primitive)
 
+let myYoutubeName = "Vishal";
 
+let name = myYoutubeName;
+name = "Sonu";
 
+console.log(myYoutubeName);
+console.log(name);
 
+let userOne = {
 
+    name : "kamal",
+    age  : 22
+}
+
+let userTwo = userOne;
+
+userTwo.name = "Vishal"
+
+console.log(userOne.name);
+console.log(userTwo.name);
 
 
 
